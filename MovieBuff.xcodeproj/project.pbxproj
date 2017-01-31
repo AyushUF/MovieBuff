@@ -12,8 +12,6 @@
 		5E818BBD1E4012BF008DE563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E818BBB1E4012BF008DE563 /* Main.storyboard */; };
 		5E818BBF1E4012BF008DE563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E818BBE1E4012BF008DE563 /* Assets.xcassets */; };
 		5E818BC21E4012BF008DE563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E818BC01E4012BF008DE563 /* LaunchScreen.storyboard */; };
-		5E818BCD1E4012C0008DE563 /* MovieBuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E818BCC1E4012C0008DE563 /* MovieBuffTests.swift */; };
-		5E818BD81E4012C0008DE563 /* MovieBuffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E818BD71E4012C0008DE563 /* MovieBuffUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		5E818BC11E4012BF008DE563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E818BC31E4012BF008DE563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E818BC81E4012C0008DE563 /* MovieBuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieBuffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E818BCC1E4012C0008DE563 /* MovieBuffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBuffTests.swift; sourceTree = "<group>"; };
-		5E818BCE1E4012C0008DE563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E818BD31E4012C0008DE563 /* MovieBuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieBuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E818BD71E4012C0008DE563 /* MovieBuffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBuffUITests.swift; sourceTree = "<group>"; };
-		5E818BD91E4012C0008DE563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				5E818BB61E4012BF008DE563 /* MovieBuff */,
-				5E818BCB1E4012C0008DE563 /* MovieBuffTests */,
-				5E818BD61E4012C0008DE563 /* MovieBuffUITests */,
 				5E818BB51E4012BF008DE563 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				5E818BC31E4012BF008DE563 /* Info.plist */,
 			);
 			path = MovieBuff;
-			sourceTree = "<group>";
-		};
-		5E818BCB1E4012C0008DE563 /* MovieBuffTests */ = {
-			isa = PBXGroup;
-			children = (
-				5E818BCC1E4012C0008DE563 /* MovieBuffTests.swift */,
-				5E818BCE1E4012C0008DE563 /* Info.plist */,
-			);
-			path = MovieBuffTests;
-			sourceTree = "<group>";
-		};
-		5E818BD61E4012C0008DE563 /* MovieBuffUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5E818BD71E4012C0008DE563 /* MovieBuffUITests.swift */,
-				5E818BD91E4012C0008DE563 /* Info.plist */,
-			);
-			path = MovieBuffUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E818BCD1E4012C0008DE563 /* MovieBuffTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E818BD81E4012C0008DE563 /* MovieBuffUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
