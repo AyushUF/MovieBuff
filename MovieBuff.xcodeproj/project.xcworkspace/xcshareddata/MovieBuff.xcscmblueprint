@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B80FCEA6176949E315789FEDB1B8BE8E830FB06D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0183EFB68269BCBBA90DD571084EFCFEBC4A656D" : 9223372036854775807,
+    "B80FCEA6176949E315789FEDB1B8BE8E830FB06D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7A72326B-10ED-4972-9460-3A486251D48C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0183EFB68269BCBBA90DD571084EFCFEBC4A656D" : "MovieBuff\/MovieBuff\/",
+    "B80FCEA6176949E315789FEDB1B8BE8E830FB06D" : "MovieBuff\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MovieBuff",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MovieBuff.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AyushUF\/MovieBuff.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0183EFB68269BCBBA90DD571084EFCFEBC4A656D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AyushUF\/MovieBuff.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B80FCEA6176949E315789FEDB1B8BE8E830FB06D"
+    }
+  ]
+}

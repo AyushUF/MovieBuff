@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieBuff/MoviesViewController.swift"
+            timestampString = "507517358.057145"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MoviesViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBuff.MoviesViewController.__deallocating_deinit"
+                  moduleName = "MovieBuff"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tesla/Downloads/Codepath/MovieBuff/MovieBuff/MoviesViewController.swift"
+                  timestampString = "507517359.541904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBuff.MoviesViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MovieBuff.MoviesViewController"
+                  moduleName = "MovieBuff"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tesla/Downloads/Codepath/MovieBuff/MovieBuff/MoviesViewController.swift"
+                  timestampString = "507517359.547374"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBuff.MoviesViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MovieBuff.MoviesViewController"
+                  moduleName = "MovieBuff"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tesla/Downloads/Codepath/MovieBuff/MovieBuff/MoviesViewController.swift"
+                  timestampString = "507517359.549407"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBuff.MoviesViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MovieBuff.MoviesViewController&gt;"
+                  moduleName = "MovieBuff"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tesla/Downloads/Codepath/MovieBuff/MovieBuff/MoviesViewController.swift"
+                  timestampString = "507517359.550972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieBuff.MoviesViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MovieBuff.MoviesViewController&gt;"
+                  moduleName = "MovieBuff"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tesla/Downloads/Codepath/MovieBuff/MovieBuff/MoviesViewController.swift"
+                  timestampString = "507517359.55271"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
