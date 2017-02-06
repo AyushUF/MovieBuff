@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBuff/MoviesViewController.swift"
-            timestampString = "507517358.057145"
+            timestampString = "508035427.145517"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "MoviesViewController"
             landmarkType = "3">
             <Locations>
