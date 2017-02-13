@@ -14,7 +14,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     @IBOutlet weak var tableView: UITableView!
     var Movies: [NSDictionary]?
-    
+    var endPoint: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
-        let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")!
+        let url = URL(string: "https://api.themoviedb.org/3/movie/\(endPoint!)?api_key=\(apiKey)")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         MBProgressHUD.showAdded(to: self.view, animated: true)
@@ -33,9 +33,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             MBProgressHUD.hide(for: self.view, animated: true)
             if let data = data {
                 if let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary {
-                    print(dataDictionary)
+                    // print(dataDictionary)
                     
-                    self.Movies = dataDictionary["results"] as! [NSDictionary]
+                    self.Movies = dataDictionary["results"] as? [NSDictionary]
                     self.tableView.reloadData()
                     
                 }
@@ -55,7 +55,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.delegate = self
         
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
-        let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")!
+        let url = URL(string: "https://api.themoviedb.org/3/movie/\(endPoint!)?api_key=\(apiKey)")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         
@@ -63,9 +63,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             refreshControl.endRefreshing()
             if let data = data {
                 if let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary {
-                    print(dataDictionary)
+                    // print(dataDictionary)
                     
-                    self.Movies = dataDictionary["results"] as! [NSDictionary]
+                    self.Movies = dataDictionary["results"] as? [NSDictionary]
                     self.tableView.reloadData()
                     
                 }
@@ -117,14 +117,20 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
 
 
-    /*
-    // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let cell = sender as! MovieCell
+        let indexPath = tableView.indexPath(for: cell)
+        let vc = segue.destination as! DetailViewController
+
+        vc.movie = Movies![indexPath!.row]
+        
+        tableView.deselectRow(at: indexPath!, animated: true)
+        
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
 
 }
